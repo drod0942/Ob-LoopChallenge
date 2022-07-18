@@ -52,5 +52,5 @@ for (let i = 0; i < recipes.length; i += 1) {
     tim[i].innerHTML = `Time: ` + recipes[i].time + ` minutes`;
     cals[i].innerHTML = `Calories: ` + recipes[i].calories;
 
-    ingred[i].innerHTML = `Ingredients: ` + recipes[i].ingredients.join("</p><p>");
+    ingred[i].innerHTML = recipes[i].ingredients.join("</p><p>");
 }
